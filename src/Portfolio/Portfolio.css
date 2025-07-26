@@ -1,0 +1,70 @@
+
+
+.port{
+    width: 100%;
+    height: 105vh;
+    text-align: center;
+
+    h2{
+        font-weight: bold;
+        font-size: 40px;
+    }
+
+    .design{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        margin: 15px 0;
+        
+        .line{
+          height: 4px;
+          width: 80px;
+          background-color: black;
+        }
+        i{
+
+          color: black;
+        }
+      }
+
+
+    .gallery{
+        
+        .img{
+            position: relative;
+            
+            .layer{
+                background-color: rgba(40, 180, 180, 0.604);
+                position: absolute;
+                top: 0;
+                right: 10px;
+                bottom: 0;
+                left: 10px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                opacity: 0;
+                cursor: pointer;
+                border-radius: 10px;
+                transition: all ease 0.4s;
+                
+
+                i{
+                    font-size: 60px;
+                    color: white;
+                }
+                 &:hover.layer{
+                    opacity: 100;;
+                }
+
+            }
+                
+            img{
+                width: 100%;
+                border-radius: 10px;
+                
+            }
+        }
+    }
+}

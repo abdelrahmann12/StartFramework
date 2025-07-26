@@ -1,0 +1,38 @@
+:root{
+    --greyColor:#2C3E50;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--greyColor);
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo{
+            .logoName{
+                color: white;
+                text-decoration: none;
+                font-size: 30px;
+                font-weight: bold;
+            }
+        }
+        ul{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        li{
+            list-style: none;
+            
+            .link{
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+            }
+            
+        }
+
+    }
+}
